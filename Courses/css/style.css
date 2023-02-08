@@ -1,0 +1,394 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #E5E5E5;
+  }
+
+:root {
+    --main-color: #3F2AFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*HEADER*/
+
+.header-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 15px;
+}
+
+.header {
+    background-color: var(--main-color);
+}
+
+.nav-brand {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.navbar-item:not(:last-child) {
+    margin-right: 57px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #212133;
+}
+
+/*HERO*/
+
+.hero-row {
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+
+.hero-container {
+    color: white;
+}
+
+.hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+    margin-bottom: 80px;
+}
+
+.hero-img {
+    width: inherit;
+}
+
+.hero-text__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    margin-bottom: 28px;
+}
+
+.hero-text__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 62px;
+}
+
+.hero-text__btn {
+    background-color: var(--main-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 23px 75px;
+    border-radius: 20px;
+    min-width: 270px;
+}
+
+.hero-container__text {
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+
+
+/*ADVANTAGES*/
+
+.advantage-container {
+    padding-bottom: 53px;
+}
+
+.advantage {
+    padding-bottom: 27px;
+}
+
+.advantage-img {
+    margin-right: 30px;
+    width: inherit;
+}
+
+.advantages-title {
+    color: #2E2B44;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 17px;
+}
+
+.advantage-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.advantage-row {
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.adv-card__img {
+    margin-right: 29px;
+}
+
+.adv-card {
+    display: flex;
+    align-items: center;
+}
+
+.adv-card__descr {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #666666;
+}
+
+/*TEACHERS*/
+
+.teachers {
+    color: #FFFFFF;
+    background-color: #212133;
+    padding-top: 75px;
+    padding-bottom: 59px;
+}
+
+.teachers-list {
+    padding: 0 0;
+}
+
+
+.teachers-title {
+    margin-bottom: 22px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+}
+
+.teacher-card {
+    min-height: 380px;
+}
+
+.teacher-card__name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 6px;
+}
+
+.teacher-card__quote {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #85859B;
+}
+
+.teacher-card__img {
+    margin-bottom: 32px;
+}
+
+.teacher-card-photo {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.teachers-img_1 {
+    background-image: url(../img/jpg/teacher-1.jpg);
+}
+
+.teachers-img_2 {
+    background-image: url(../img/jpg/teacher-2.jpg);
+}
+
+.teachers-img_3 {
+    background-image: url(../img/jpg/teacher-3.jpg);
+}
+
+.teachers-img_4 {
+    background-image: url(../img/jpg/teacher-4.jpg);
+}
+
+/*COURSES*/
+
+.courses {
+    padding-top: 70px;
+    margin-bottom: 53px;
+}
+
+.courses-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.courses-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-card {
+    border-radius: 20px;
+    padding-top: 39%;
+    padding-bottom: 5%;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    min-height: 477px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EDF0F9;
+}
+
+.card-margin {
+    margin-bottom: 32px;
+}
+
+.course-card__hours {
+    color: #FFFFFF;
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    top: 2%;
+    left: 79.5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -5px;  
+}
+
+.clock-face {
+    margin-right: 8px;
+}
+
+.clock-hours {
+    margin-right: 5px;
+}
+
+.course-card__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-card__btn {
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    width: 42%;
+    padding-top: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+}
+
+.course-article__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.course-article__text {
+    color: #666666;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.course-card_bg {
+    
+}
+
+.inner-width {
+    width: 80%;
+}
+
+.course-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.course-card-1__img {
+    background-image: url(../img/jpg/course-1.jpg);
+}
+
+.course-card-2__img {
+    background-image: url(../img/jpg/course-2.jpg);
+}
+
+.course-card-3__img {
+    background-image: url(../img/jpg/course-3.jpg);
+}
+
+.course-card-4__img {
+    background-image: url(../img/jpg/course-4.jpg);
+}
+
+
+/*FOOTER*/
+
+.footer-up {
+    background-color: #2E2B44;
+    width: 100%;
+}
+
+.social-net__list {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    padding-bottom: 23px;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 34px;
+}
+
+.social-item-fb {
+    background-image: url(../img/svg/fb.svg);
+}
+
+.footer-skillbox {
+    color: #2E2B44;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    min-height: 10px;
+}
+
+.burger {
+        display: none;
+}
+
+.nav-link:hover {
+    outline: none;
+    border: none;
+}
+
+    .nav__link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #3474BA;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    }
